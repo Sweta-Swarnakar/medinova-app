@@ -2,14 +2,18 @@ import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getClickedDoctorData } from "../Redux/Action";
 import { useEffect, useState } from "react";
-import "../styles/Details.css"
+import "../styles/Details.css";
+import axios from "axios"
+
 
 export const Details = () => {
   const dispatch = useDispatch();
   
   
   const current = new Date();
-  const currentTime = `${current.getHours()}`;
+  var currentTime = `${current.getHours()}`;
+
+  var slotCount = 0
 
   
   const state = useSelector((state) => state);
@@ -20,6 +24,39 @@ export const Details = () => {
     dispatch(getClickedDoctorData(params.id));
   }, []);
 
+  const handleBook = async(start, end, slots) =>
+  {
+      if(currentTime >= start && currentTime < end && slots <= 15)
+      {
+        var temp = Number(slots)
+       // console.log(typeof(temp))
+        slotCount = temp - 1
+        try {
+          const response = await axios.patch(`http://localhost:3000/doctors/${params.id}`, { slots: slotCount });
+          console.log('👉 Returned data:', response.data);
+         
+        } catch (e) {
+          console.log(`😱 Axios request failed: ${e}`);
+        }
+        window.alert("Booking confirmed")
+      }
+
+      else if(currentTime < start)
+      {
+        window.alert(`Doctor will be available at ${start}`)
+        return;
+      }
+
+      else if(currentTime > end)
+      {
+        window.alert(`Sorry doctor left at ${end}`)
+        return
+      }
+
+     
+      
+  }
+
    
 
    
@@ -28,14 +65,13 @@ export const Details = () => {
   return (
     <>
      
-      <h1></h1>;
+      <h1>Doctor's Details Page</h1>;
       <div >
         <div className="imgBox">
           <img
             src={state.selectedData.img}
             alt=""
-            height="100%"
-            width="100%"
+            
           />
         </div>
         <div className="infoBox">
@@ -51,11 +87,14 @@ export const Details = () => {
           <p>
             <b>Time:</b> {state.selectedData.startTime} to {state.selectedData.endTime} (24 hours Format)
           </p>
-          {
-            // {currentTime >= {state.selectedData.startTime} && currentTime < state.selectedData.endTime ?
+
+          <p>
+            <b>Avaible Slots:</b> {state.selectedData.slots}
+          </p>
+         
             
-              <button style={{width: 150, height: 50, backgroundColor: 'red', color: 'white', fontSize: 16}}>Book Appointment</button>
-          }
+              <button className="appointment"  onClick={(e) => handleBook( state.selectedData.startTime, state.selectedData.endTime, state.selectedData.slots)}>Book Appointment</button>
+          
           
           
           

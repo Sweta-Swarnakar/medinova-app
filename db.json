@@ -225,7 +225,8 @@
         "startTime": 11,
         "endTime": 14,
         "fees": 800,
-        "exp": "34 years"
+        "exp": "34 years",
+        "slots": 15
       }
   
   
