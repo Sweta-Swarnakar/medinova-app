@@ -54,7 +54,7 @@ export const Details = () => {
           {
             // {currentTime >= {state.selectedData.startTime} && currentTime < state.selectedData.endTime ?
             
-              <button>Book Appointment</button>
+              <button style={{width: 150, height: 50, backgroundColor: 'red', color: 'white', fontSize: 16}}>Book Appointment</button>
           }
           
           
