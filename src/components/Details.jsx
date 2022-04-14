@@ -40,15 +40,7 @@ export const Details = () => {
         </div>
         <div className="infoBox">
           <h1>{state.selectedData.firstName} {state.selectedData.lastName}</h1>
-          {state?.selectedData?.category &&
-            state.selectedData.category
-              .trim()
-              .split("|")
-              .map((el, index) => (
-                <p key={index}>
-                  {el}
-                </p>
-              ))}
+         
           <p>
             <b>Experince:</b> {state.selectedData.exp}
           </p>
@@ -60,11 +52,11 @@ export const Details = () => {
             <b>Time:</b> {state.selectedData.startTime} to {state.selectedData.endTime} (24 hours Format)
           </p>
           {
-            // if(currentTime >= {state.selectedData.startTime} && currentTime < state.selectedData.endTime)
+            // {currentTime >= {state.selectedData.startTime} && currentTime < state.selectedData.endTime ?
             
               <button>Book Appointment</button>
-            
           }
+          
           
           
         
