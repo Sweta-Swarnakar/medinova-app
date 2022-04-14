@@ -1,236 +1,225 @@
 {
-    "doctors": 
-    [
-      {
-        "id": 1,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/sweta.jpg?raw=true",
-        "firstName": "Sweta",
-        "lastName": "Swarnakar",
-        "degree": "MBBS",
-        "speciality": "ENT",
-        "Clinic": "Apollo",
-        "startTime": 10,
-        "endTime": 13,
-        "fees": 700,
-        "exp": "16 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 2,
-        "img": "https://raw.githubusercontent.com/Sweta-Swarnakar/medinova-app/main/images/moumita.webp",
-        "firstName": "Moumita",
-        "lastName": "Biswas",
-        "degree": "MBBS",
-        "speciality": "Gynecologist",
-        "Clinic": "Apollo",
-        "startTime": 14,
-        "endTime": 17,
-        "fees": 600,
-        "exp": "14 years",
-        "slots": 15
-      },
-      {
-        "id": 3,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/krishna.jpg?raw=true",
-        "firstName": "Krishna",
-        "lastName": "Sarkar",
-        "degree": "MBBS",
-        "speciality": "General Physician",
-        "Clinic": "Apollo",
-        "startTime": 11,
-        "endTime": 14,
-        "fees": 700,
-        "exp": "20 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 4,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Biprajit.jpg?raw=true",
-        "firstName": "Biprajit",
-        "lastName": "Sarkar",
-        "degree": "MBBS",
-        "speciality": "Gastroenterologist",
-        "Clinic": "Apollo",
-        "startTime": 15,
-        "endTime": 18,
-        "fees": 500,
-        "exp": "16 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 5,
-        "img": "https://raw.githubusercontent.com/Sweta-Swarnakar/medinova-app/main/images/avra.webp",
-        "firstName": "Avra",
-        "lastName": "Mitra",
-        "degree": "MBBS",
-        "speciality": "Cardiologist",
-        "Clinic": "Apollo",
-        "startTime": 12,
-        "endTime": 15,
-        "fees": 600,
-        "exp": "33 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 6,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/kabita.jpg?raw=true",
-        "firstName": "Kabita",
-        "lastName": "Mondal",
-        "degree": "DDS",
-        "speciality": "Dentist",
-        "Clinic": "Manipal",
-        "startTime": 9,
-        "endTime": 12,
-        "fees": 800,
-        "exp": "10 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 7,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Atish.jpg?raw=true",
-        "firstName": "Atish",
-        "lastName": "biswas",
-        "degree": "MBBS",
-        "speciality": "Dermatologist",
-        "Clinic": "Manipal",
-        "startTime": 11,
-        "endTime": 14,
-        "fees": 700,
-        "exp": "27 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 8,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/manisha.jpg?raw=true",
-        "firstName": "Manisha",
-        "lastName": "sarkar",
-        "degree": "MBBS",
-        "speciality": "Gynecologist",
-        "Clinic": "Manipal",
-        "startTime": 15,
-        "endTime": 18,
-        "fees": 650,
-        "exp": "40 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 9,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Zack.jpg?raw=true",
-        "firstName": "Zack",
-        "lastName": "Fair",
-        "degree": "MBBS",
-        "speciality": "General Physician",
-        "Clinic": "Manipal",
-        "startTime": 14,
-        "endTime": 17,
-        "fees": 750,
-        "exp": "35 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 10,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Abhijeet.jpg?raw=true",
-        "firstName": "Abhijeet",
-        "lastName": "Chatterjee",
-        "degree": "MBBS",
-        "speciality": "ENT",
-        "Clinic": "Manipal",
-        "startTime": 17,
-        "endTime": 20,
-        "fees": 500,
-        "exp": "12 years",
-        "slots": 15
-      },
-  
-      {
-        "id": 11,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Aroti.jpg?raw=true",
-        "firstName": "Aroti",
-        "lastName": "Biswas",
-        "degree": "MBBS",
-        "speciality": "Cardiologist",
-        "Clinic": "Forties",
-        "startTime": 11,
-        "endTime": 14,
-        "fees": 600,
-        "exp": "17 years",
-        "slots": 15
-      },
-  
-      
-      {
-        "id": 12,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/arpita.jpg?raw=true",
-        "firstName": "Arpita",
-        "lastName": "Ghosh",
-        "degree": "MBBS",
-        "speciality": "General Physician",
-        "Clinic": "Forties",
-        "startTime": 9,
-        "endTime": 12,
-        "fees": 600,
-        "exp": "10 years",
-        "slots": 15
-      },
-  
-      
-      {
-        "id": 13,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/barun.jpg?raw=true",
-        "firstName": "Barun",
-        "lastName": "Das",
-        "degree": "BDS",
-        "speciality": "Dentist",
-        "Clinic": "Forties",
-        "startTime": 11,
-        "endTime": 14,
-        "fees": 700,
-        "exp": "18 years",
-        "slots": 15
-      },
-  
-      
-      {
-        "id": 14,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Binu.jpg?raw=true",
-        "firstName": "Binu",
-        "lastName": "Nair",
-        "degree": "MBBS",
-        "speciality": "Gastroenterologist",
-        "Clinic": "Forties",
-        "startTime": 11,
-        "endTime": 14,
-        "fees": 500,
-        "exp": "13 years",
-        "slots": 15
-      },
-  
-      
-      {
-        "id": 15,
-        "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/meghna.jpg?raw=true",
-        "firstName": "Meghna",
-        "lastName": "Pal",
-        "degree": "MBBS",
-        "speciality": "Dermatologist",
-        "Clinic": "Forties",
-        "startTime": 11,
-        "endTime": 14,
-        "fees": 800,
-        "exp": "34 years",
-        "slots": 15
-      }
-  
-  
-  
-  
-    ]
-  }
+  "doctors": [
+    {
+      "id": 1,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/sweta.jpg?raw=true",
+      "firstName": "Sweta",
+      "lastName": "Swarnakar",
+      "degree": "MBBS",
+      "speciality": "ENT",
+      "Clinic": "Apollo",
+      "startTime": 10,
+      "endTime": 13,
+      "fees": 700,
+      "exp": "16 years",
+      "slots": 4
+    },
+    {
+      "id": 2,
+      "img": "https://raw.githubusercontent.com/Sweta-Swarnakar/medinova-app/main/images/moumita.webp",
+      "firstName": "Moumita",
+      "lastName": "Biswas",
+      "degree": "MBBS",
+      "speciality": "Gynecologist",
+      "Clinic": "Apollo",
+      "startTime": 14,
+      "endTime": 17,
+      "fees": 600,
+      "exp": "14 years",
+      "slots": 15
+    },
+    {
+      "id": 3,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/krishna.jpg?raw=true",
+      "firstName": "Krishna",
+      "lastName": "Sarkar",
+      "degree": "MBBS",
+      "speciality": "General Physician",
+      "Clinic": "Apollo",
+      "startTime": 11,
+      "endTime": 14,
+      "fees": 700,
+      "exp": "20 years",
+      "slots": 10
+    },
+    {
+      "id": 4,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Biprajit.jpg?raw=true",
+      "firstName": "Biprajit",
+      "lastName": "Sarkar",
+      "degree": "MBBS",
+      "speciality": "Gastroenterologist",
+      "Clinic": "Apollo",
+      "startTime": 15,
+      "endTime": 18,
+      "fees": 500,
+      "exp": "16 years",
+      "slots": 15
+    },
+    {
+      "id": 5,
+      "img": "https://raw.githubusercontent.com/Sweta-Swarnakar/medinova-app/main/images/avra.webp",
+      "firstName": "Avra",
+      "lastName": "Mitra",
+      "degree": "MBBS",
+      "speciality": "Cardiologist",
+      "Clinic": "Apollo",
+      "startTime": 12,
+      "endTime": 15,
+      "fees": 600,
+      "exp": "33 years",
+      "slots": 15
+    },
+    {
+      "id": 6,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/kabita.jpg?raw=true",
+      "firstName": "Kabita",
+      "lastName": "Mondal",
+      "degree": "DDS",
+      "speciality": "Dentist",
+      "Clinic": "Manipal",
+      "startTime": 9,
+      "endTime": 12,
+      "fees": 800,
+      "exp": "10 years",
+      "slots": 14
+    },
+    {
+      "id": 7,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Atish.jpg?raw=true",
+      "firstName": "Atish",
+      "lastName": "biswas",
+      "degree": "MBBS",
+      "speciality": "Dermatologist",
+      "Clinic": "Manipal",
+      "startTime": 11,
+      "endTime": 14,
+      "fees": 700,
+      "exp": "27 years",
+      "slots": 13
+    },
+    {
+      "id": 8,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/manisha.jpg?raw=true",
+      "firstName": "Manisha",
+      "lastName": "sarkar",
+      "degree": "MBBS",
+      "speciality": "Gynecologist",
+      "Clinic": "Manipal",
+      "startTime": 15,
+      "endTime": 18,
+      "fees": 650,
+      "exp": "40 years",
+      "slots": 15
+    },
+    {
+      "id": 9,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Zack.jpg?raw=true",
+      "firstName": "Zack",
+      "lastName": "Fair",
+      "degree": "MBBS",
+      "speciality": "General Physician",
+      "Clinic": "Manipal",
+      "startTime": 14,
+      "endTime": 17,
+      "fees": 750,
+      "exp": "35 years",
+      "slots": 15
+    },
+    {
+      "id": 10,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Abhijeet.jpg?raw=true",
+      "firstName": "Abhijeet",
+      "lastName": "Chatterjee",
+      "degree": "MBBS",
+      "speciality": "ENT",
+      "Clinic": "Manipal",
+      "startTime": 17,
+      "endTime": 20,
+      "fees": 500,
+      "exp": "12 years",
+      "slots": 15
+    },
+    {
+      "id": 11,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Aroti.jpg?raw=true",
+      "firstName": "Aroti",
+      "lastName": "Biswas",
+      "degree": "MBBS",
+      "speciality": "Cardiologist",
+      "Clinic": "Forties",
+      "startTime": 11,
+      "endTime": 14,
+      "fees": 600,
+      "exp": "17 years",
+      "slots": 15
+    },
+    {
+      "id": 12,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/arpita.jpg?raw=true",
+      "firstName": "Arpita",
+      "lastName": "Ghosh",
+      "degree": "MBBS",
+      "speciality": "General Physician",
+      "Clinic": "Forties",
+      "startTime": 9,
+      "endTime": 12,
+      "fees": 600,
+      "exp": "10 years",
+      "slots": 15
+    },
+    {
+      "id": 13,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/barun.jpg?raw=true",
+      "firstName": "Barun",
+      "lastName": "Das",
+      "degree": "BDS",
+      "speciality": "Dentist",
+      "Clinic": "Forties",
+      "startTime": 11,
+      "endTime": 14,
+      "fees": 700,
+      "exp": "18 years",
+      "slots": 15
+    },
+    {
+      "id": 14,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/Binu.jpg?raw=true",
+      "firstName": "Binu",
+      "lastName": "Nair",
+      "degree": "MBBS",
+      "speciality": "Gastroenterologist",
+      "Clinic": "Forties",
+      "startTime": 11,
+      "endTime": 14,
+      "fees": 500,
+      "exp": "13 years",
+      "slots": 15
+    },
+    {
+      "id": 15,
+      "img": "https://github.com/Sweta-Swarnakar/medinova-app/blob/main/images/meghna.jpg?raw=true",
+      "firstName": "Meghna",
+      "lastName": "Pal",
+      "degree": "MBBS",
+      "speciality": "Dermatologist",
+      "Clinic": "Forties",
+      "startTime": 11,
+      "endTime": 14,
+      "fees": 800,
+      "exp": "34 years"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,5 @@
 import axios from "axios";
-import {GET_DOCTOR_FAILURE,GET_DOCTOR_REQ, GET_DOCTOR_SUCCESS,   GET_CLICKED_DOCTOR_REQ, GET_CLICKED_DOCTOR_SUCCESS,
-   FILTER_DATA, SEARCH_TERM} from "./ActionType";
+import {GET_DOCTOR_FAILURE,GET_DOCTOR_REQ, GET_DOCTOR_SUCCESS,   GET_CLICKED_DOCTOR_REQ, GET_CLICKED_DOCTOR_SUCCESS, FILTER_DATA, SEARCH_TERM} from "./ActionType";
 
 
 export const getDoctorRequest = () => ({
@@ -69,7 +68,5 @@ export const getClickedDoctorData = (id) => {
       });
   };
 };
-
-
 
 
