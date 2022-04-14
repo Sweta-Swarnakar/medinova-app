@@ -25,6 +25,8 @@ export const Details = () => {
   {
       if(currentTime >= start && currentTime < end && slots <= 15)
       {
+         
+        
         var temp = Number(slots)
       
         slotCount = temp - 1
@@ -36,7 +38,6 @@ export const Details = () => {
         } catch (e) {
           console.log(`😱 Axios request failed: ${e}`);
         }
-       
       }
 
       else if(currentTime < start)
