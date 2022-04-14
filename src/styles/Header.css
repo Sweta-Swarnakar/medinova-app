@@ -1,0 +1,11 @@
+.nav{
+    display: flex;
+    height: 60px;
+    background-color: aquamarine;
+    padding-left: 5%;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+
