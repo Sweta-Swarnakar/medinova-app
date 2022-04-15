@@ -12,7 +12,7 @@
       "endTime": 13,
       "fees": 700,
       "exp": "16 years",
-      "slots": 3
+      "slots": 9
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "endTime": 17,
       "fees": 600,
       "exp": "14 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "endTime": 14,
       "fees": 700,
       "exp": "20 years",
-      "slots": 10
+      "slots": 7
     },
     {
       "id": 4,
@@ -54,7 +54,7 @@
       "endTime": 18,
       "fees": 500,
       "exp": "16 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 5,
@@ -68,7 +68,7 @@
       "endTime": 15,
       "fees": 600,
       "exp": "33 years",
-      "slots": 14
+      "slots": 9
     },
     {
       "id": 6,
@@ -82,7 +82,7 @@
       "endTime": 12,
       "fees": 800,
       "exp": "10 years",
-      "slots": 14
+      "slots": 9
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "endTime": 14,
       "fees": 700,
       "exp": "27 years",
-      "slots": 13
+      "slots": 9
     },
     {
       "id": 8,
@@ -110,7 +110,7 @@
       "endTime": 18,
       "fees": 650,
       "exp": "40 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 9,
@@ -124,7 +124,7 @@
       "endTime": 17,
       "fees": 750,
       "exp": "35 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 10,
@@ -138,7 +138,7 @@
       "endTime": 20,
       "fees": 500,
       "exp": "12 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 11,
@@ -152,7 +152,7 @@
       "endTime": 14,
       "fees": 600,
       "exp": "17 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 12,
@@ -166,7 +166,7 @@
       "endTime": 12,
       "fees": 600,
       "exp": "10 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 13,
@@ -180,7 +180,7 @@
       "endTime": 14,
       "fees": 700,
       "exp": "18 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 14,
@@ -194,7 +194,7 @@
       "endTime": 14,
       "fees": 500,
       "exp": "13 years",
-      "slots": 15
+      "slots": 9
     },
     {
       "id": 15,
@@ -207,7 +207,8 @@
       "startTime": 11,
       "endTime": 14,
       "fees": 800,
-      "exp": "34 years"
+      "exp": "34 years",
+      "slots": 9
     }
   ]
 }

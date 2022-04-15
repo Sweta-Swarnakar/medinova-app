@@ -23,7 +23,8 @@ export const Details = () => {
 
   const handleBook = async(start, end, slots) =>
   {
-      if(currentTime >= start && currentTime < end && slots <= 15)
+   
+      if(currentTime >= start && currentTime < end && slots <= 9)
       {
          
         
@@ -46,7 +47,7 @@ export const Details = () => {
         return;
       }
 
-      else if(currentTime > end)
+      else if(currentTime >= end)
       {
         window.alert(`Sorry doctor left at ${end}`)
         return
