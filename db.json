@@ -40,7 +40,7 @@
       "endTime": 14,
       "fees": 700,
       "exp": "20 years",
-      "slots": 7
+      "slots": 5
     },
     {
       "id": 4,
@@ -166,7 +166,7 @@
       "endTime": 12,
       "fees": 600,
       "exp": "10 years",
-      "slots": 9
+      "slots": 8
     },
     {
       "id": 13,
@@ -180,7 +180,7 @@
       "endTime": 14,
       "fees": 700,
       "exp": "18 years",
-      "slots": 9
+      "slots": 8
     },
     {
       "id": 14,
